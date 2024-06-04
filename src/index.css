@@ -1,0 +1,170 @@
+.carousel-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%; /* Ensure the carousel item takes the full height */
+}
+
+.carousel-item img {
+  max-width: 100%; /* Ensure the image doesn't overflow its container */
+  max-height: 100%; /* Ensure the image doesn't overflow its container */
+  width: auto; /* Maintain aspect ratio */
+  height: auto; /* Maintain aspect ratio */
+  margin: auto; /* Center the image horizontally */
+}
+
+
+.raising-up {
+  font-size: 1.5em; /* Increase the font size for 'Raising' */
+}
+.hands-bottom {
+  font-size: 0.8em; /* Smaller font size for 'Hands' */
+   /* Adds space between 'Raising' and 'Hands' */
+}
+
+.text-center {
+  text-align: center;
+}
+
+
+
+/* Aboutus */
+.about-us-container {
+  display: flex; /* Create a flex container */
+  justify-content: space-between; /* Ensure the two halves are evenly spaced */
+}
+
+.about-us-images {
+  flex: 1; /* Allocate half the width for images */
+  display: flex; /* Enable flex layout within the images section */
+  flex-direction: column; /* Display images in a column */
+  justify-content: center; /* Center images vertically */
+  align-items: center; /* Center images horizontally */
+  padding: 20px; /* Add padding for spacing */
+}
+
+.about-us-image {
+  max-width: 100%; /* Ensure images don't exceed container width */
+  margin-bottom: 10px; /* Add spacing between images */
+}
+
+.about-us-text {
+  flex: 1; /* Allocate half the width for text */
+  padding: 20px; /* Add padding for spacing */
+}
+
+.about-us-image {
+  width: 80%; /* This allows the image to take 80% of the container's width */
+  height: auto; /* Maintains aspect ratio */
+  margin-bottom: 10px; /* Space between images */
+  box-shadow: 10px 4px 8px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Volunteer_Page */
+.popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgb(203, 191, 191);
+  border: 1px solid #211717;
+  padding: 20px;
+  z-index: 1000;
+  width: 800px;
+  border-radius: 10px;
+}
+
+.popup-content {
+  position: relative;
+}
+
+.close-popup {
+  top: 10px;
+  right: 10px;
+}
+.App{
+  background-color: #fbfafa;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  padding: 10px 20px;
+  transition: transform 0.2s;
+  width: 30%;
+  text-align: center;
+  margin: auto;
+  margin-top: 20px;
+}
+
+h1 {
+  font-size: x-large;
+  text-align: center;
+  color: black;
+}
+
+fieldset {
+  border: none;
+}
+
+input {
+  display: block;
+  width: 100%;
+  /* margin-bottom: 15px; */
+  padding: 8px;
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  font-size: 12px;
+}
+
+input{
+  background-color: whitesmoke;
+}
+
+select {
+  display: block;
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+label {
+  font-size: 15px;
+  display: block;
+  width: 100%;
+  margin-top: 8px;
+  margin-bottom: 5px;
+  text-align: left;
+  color: #080606;
+  font-weight: bold;
+}
+
+button {
+  padding: 15px;
+  border-radius: 10px;
+  margin: 15px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  background-color: #0d7910;
+  width: 40%;
+  font-size: 16px;
+  
+}
+textarea {
+  resize: none;
+  width: 98%;
+  min-height: 100px;
+  max-height: 150px;
+  background-color: whitesmoke;
+}
+
+.button-container {
+  display: flex;          /* Use flexbox for layout */
+  justify-content: space-between;  /* Align the buttons at opposite ends */
+  align-items: center; 
+  border-radius: 10px;
+     /* Vertically center the buttons */
+}

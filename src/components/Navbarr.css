@@ -1,0 +1,22 @@
+.navbar{
+    background-color: #d6c5ee;
+    background-attachment: fixed;
+    margin-bottom: 10px;
+    
+
+}
+#navbarSupportedContent{
+    margin-left: 60%;
+}
+.nav-item:hover {
+    background: linear-gradient(to right, #DDDDDD, #FEFDED, #EEEEEE);
+   border-radius: 30px;
+   font-weight: bold;
+}
+img{
+    width: 5%;
+    height: 5%;
+}
+.nav-link{
+    color:rgb(137, 17, 17);
+}
